@@ -15,7 +15,7 @@ router.get("/test",async (ctx)=>{
   //  let writeResult = await util.writeFileAsync(f_path,result);
   //  jsonFrom.getJson();
    for(let i = 2;i < 10 ; i++){
-      let result  = await axios(6);
+      let result  = await axios(i);
       let writeResult = await util.writeFileAsync(w_path,result);
       jsonFrom.getJson();
    }
