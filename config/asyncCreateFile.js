@@ -25,3 +25,15 @@ module.exports.readFileAsync = (f_path) => {
         })
     })
 }
+
+module.exports.readFileImgAsync = (f_path) => {
+    return new Promise((resolve, reject) => {
+        fs.readFile(f_path,'binary', (err, content) => {
+            if (err) {
+                reject(err)
+            } else {
+                resolve(content)
+            }
+        })
+    })
+}
