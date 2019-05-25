@@ -4,6 +4,7 @@ const dataJson = require("../file/result.json");
 const request = require("request");
 const util = require("./asyncCreateFile");
 const zlib = require("zlib"); // 下载zip 文件
+const localZip = require("zip-local");
 let getPipe = (obj_url)=>{
     return new Promise((resolve,reject) =>{
         request({method:"get",url:obj_url},(err, response, body)=>{
@@ -42,19 +43,28 @@ let asyncMethods = async ()=>{
 }
 let creatZip = async ()=>{
     const gzip = zlib.createGzip();
-    // const zip_path = path.resolve(__dirname,"../zip/img.zip");
+    const zip_path = pathLib.resolve(__dirname,"../zip/img.zip");
     const img_dir_path = pathLib.resolve(__dirname,"../IMG/");
     // const inp = fs.createReadStream(zip_path); // 创建文件流
     // const out = fs.createWriteStream('input.txt.gz'); // 创建文件流
     // util.readFileImgAsync();
-    fs.readdir(img_dir_path,(err,files)=>{
-        if(err){
-            console.warn(err);
-        }
-        console.log(files);
-    })
+    // fs.readdir(img_dir_path,(err,files)=>{
+    //     if(err){
+    //         console.warn(err);
+    //     }
+    //     let all_files = files;
+    //     for(let i = 0,max = all_files.length; i < max ;i++){
+    //         let dir_path = pathLib.resolve(__dirname,`../IMG/${files[i]}`);
+    //         const inp = fs.createReadStream(dir_path);
+    //         const out = fs.createWriteStream(zip_path);
+    //         inp.pipe(gzip).pipe(out);
+    //     }
+    // })
+    localZip.sync.zip(img_dir_path).compress().save(zip_path);
     // inp.pipe(gzip).pipe(out);
 }
+// asyncMethods()
+
 creatZip()
 // module.export.writeImg = ()=>{
     
