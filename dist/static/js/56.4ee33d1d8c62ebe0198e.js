@@ -1,2 +1,0 @@
-webpackJsonp([56],{"8vap":function(e,t){},oBMK:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",{},[t("router-view")],1)},staticRenderFns:[]};var o=n("C7Lr")({name:"motherFund",data:function(){return{}},created:function(){},mounted:function(){},components:{},methods:{}},r,!1,function(e){n("8vap")},"data-v-d3613430",null);t.default=o.exports}});
-//# sourceMappingURL=56.4ee33d1d8c62ebe0198e.js.map

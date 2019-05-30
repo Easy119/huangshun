@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+    <script src="./js/axios.js"></script>
+    <!-- 引入组件库 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="./js/element.js"></script>
+    <style>
+        #app {
+            width: 100%;
+            height: 100vh;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="app" v-loading="loading" element-loading-text="拼命加载中" element-loading-spinner="el-icon-loading"
+        element-loading-background="rgba(0, 0, 0, 0.8)">
+        <h1>jio子好吃，哈哈哈</h1>
+        <div class="box">
+            <el-form :label-position="labelPosition" label-width="150px" >
+                <el-form-item label="获取cookie">
+                    <el-input v-model="cookie"></el-input>
+                </el-form-item>
+                <el-form-item label="填写开始页码">
+                    <el-input v-model="pageStartNum"></el-input>
+                </el-form-item>
+                <el-form-item label="填写结束页码">
+                    <el-input v-model="pageNum"></el-input>
+                </el-form-item>
+            </el-form>
+            <el-button type="primary" @click="getData">获取数据</el-button>
+            <el-button type="primary" @click="downloadExcel">导出Excel</el-button>
+            <!-- <button @click="getData">获取数据</button>
+            <button @click="downloadImg">下载图片</button>
+            <button @click="downloadZip">下载压缩</button> -->
+            <!-- <button @click="downloadExcel">导出Excel</button> -->
+            <button @click="getTest">链接</button> 
+        </div>
+    </section>
+    <!-- 加载中 -->
+    <div class="loading"></div>
+    <script>
+        let vm = new Vue({
+            el: "#app",
+            data: {
+                cookie: "",
+                pageStartNum: "",
+                pageNum: "",
+                loading: false,
+                labelPosition: 'right',
+            },
+            methods: {
+                getData() {
+                    console.log("getData");
+                    if(this.cookie == "" || this.pageStartNum == "" || this.pageNum == ""){
+                        this.$message.error('数据填写不完整！！！');
+                        return 
+                    }  
+                    this.loading = true; 
+                    axios.post("http://localhost:8083/getList", { cookie: this.cookie, pageStartNum: this.pageStartNum, pageNum: this.pageNum }).then(res => {
+                        console.log(res);
+                        if (res.data.flag) {
+                            this.loading = false;
+                            this.$message({
+                                message: '数据下载成功！！！',
+                                type: 'success'
+                            });
+                        }
+                    }).catch(err => {
+                        console.log(err)
+                    })
+                },
+                downloadImg() {
+                    console.log("downloadImg");
+                    axios.get("http://localhost:8083/uploadImg").then(res => {
+                        console.log(res)
+                    }).catch(err => {
+                        console.log(err)
+                    })
+                },
+                downloadZip() {
+                    console.log("downloadZip");
+                },
+                downloadExcel() {
+                    console.log("downloadExcel");
+                    axios.get("http://localhost:8083/uploadExcle").then(res => {
+                        console.log(res.data)
+                        window.location.href = "http://localhost:8083" + res.data;
+                        console.log(`http://localhost:8083${res.data}`);
+                    }).catch(err => {
+                        console.log(err)
+                    })
+                },
+                getTest() {
+                    axios.defaults.headers.post["Content-Type"] = "text/html; charset=UTF-8";
+                    axios.post("http://192.168.1.154:8082/bbb",{name:"徐鑫鑫",sex:"1",address:"上海市"}).then(res => {
+                        console.log(res.data)
+                    }).catch(err => {
+                        console.log(err)
+                    })
+                }
+
+            }
+        })
+    </script>
+</body>
+
+</html>

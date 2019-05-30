@@ -1,2 +1,0 @@
-webpackJsonp([45],{a0UG:function(e,t){},vcZu:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"body"},[t("router-view")],1)},staticRenderFns:[]};var r=n("C7Lr")({name:"manageCompany",data:function(){return{}},created:function(){},mounted:function(){},components:{},methods:{}},a,!1,function(e){n("a0UG")},"data-v-f746440e",null);t.default=r.exports}});
-//# sourceMappingURL=45.15af7bb7b714c26a96cb.js.map

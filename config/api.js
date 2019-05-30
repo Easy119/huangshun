@@ -33,8 +33,9 @@ let data = {"sceneName":"query_buyer_show_4_merchant","paramMap":"{\"params\":\"
 // const cookie = "t=c0c4616bfeaa3a7f6d28eee1cb612cf3; cna=Wf89Fdy1ZFkCAdpPwIA1weHA; uc3=id2=&nk2=&lg2=; tracknick=; cookie2=1692e452be082ec6ae5506b2de4fd7fe; _tb_token_=eeeb863bb7a79; x=3299055857; skt=6f1b0ca838178422; sn=%E5%90%B1%E9%9F%B3%E6%97%97%E8%88%B0%E5%BA%97%3Anetwork1; unb=3327961988; csg=44b52be9; uc1=lng=zh_CN&cookie14=UoTZ7HUMxOD60w%3D%3D; v=0; l=bBjCW1A4vVCpv1gtBOCg5uI8Lv_O7IRAguPRwCV2i_5B41YLp0bOlpWxLev6Vj5R_tYB4-WVu-e9-etXi; _m_h5_tk=39ce15a678f86260b0af743106bbfa34_1558081262373; _m_h5_tk_enc=6700c24598c532e970dd6f3c694c6074; isg=BH19Aez5_UJlY1mr0K58IT0FjN-3srD1lI60fz_CpVQDdpyoB2p9PHVgJKowdskk";
 const cookie = "t=c0c4616bfeaa3a7f6d28eee1cb612cf3; cna=Wf89Fdy1ZFkCAdpPwIA1weHA; uc3=id2=&nk2=&lg2=; tracknick=; cookie2=1692e452be082ec6ae5506b2de4fd7fe; _tb_token_=eeeb863bb7a79; x=3299055857; skt=6f1b0ca838178422; sn=%E5%90%B1%E9%9F%B3%E6%97%97%E8%88%B0%E5%BA%97%3Anetwork1; unb=3327961988; csg=44b52be9; uc1=lng=zh_CN&cookie14=UoTZ7HUMxOD60w%3D%3D; v=0; l=bBjCW1A4vVCpv1gtBOCg5uI8Lv_O7IRAguPRwCV2i_5B41YLp0bOlpWxLev6Vj5R_tYB4-WVu-e9-etXi; _m_h5_tk=39ce15a678f86260b0af743106bbfa34_1558081262373; _m_h5_tk_enc=6700c24598c532e970dd6f3c694c6074; isg=BLGxZrB9SZ5xIOWPfKpIDUlJwDuLNiSJ4NJoG5PG_XidutMM2-_K402c2E7ccr1I";
 const token = "39ce15a678f86260b0af743106bbfa34";
-module.exports = function(pageNum){
+module.exports = function(pageNum,token,cookie){
     let obj_url = a(pageNum,token);
+
     return new Promise((resolve,reject)=>{
         request({method:"get",url:obj_url,headers:{cookie}},(err, response, body)=>{
             if (!err && response.statusCode == 200) {

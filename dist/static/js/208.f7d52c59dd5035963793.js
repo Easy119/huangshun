@@ -1,2 +1,0 @@
-webpackJsonp([208],{Etop:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"body"},[t("router-view")],1)},staticRenderFns:[]};var a=n("C7Lr")({name:"investerManage",data:function(){return{}},created:function(){},mounted:function(){},components:{},methods:{}},r,!1,function(e){n("PGKj")},"data-v-0541715c",null);t.default=a.exports},PGKj:function(e,t){}});
-//# sourceMappingURL=208.f7d52c59dd5035963793.js.map

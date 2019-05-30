@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="./js/io.js"></script>
+    <script type="text/javascript">
+        function WebSocketTest() {
+            if ("WebSocket" in window) {
+                alert("您的浏览器支持 WebSocket!");
+                var socket = io.connect('http://localhost:8084/');
+                socket.on('news', function (data) {
+                    console.log(data);
+                    socket.emit('my other event', { my: 'data' });
+                });
+            }
+
+            else {
+                // 浏览器不支持 WebSocket
+                alert("您的浏览器不支持 WebSocket!");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="sse">
+        <a href="javascript:WebSocketTest()">运行 </a>
+    </div>
+</body>
+
+</html>
