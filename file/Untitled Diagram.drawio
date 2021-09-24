@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T09:04:36.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="_Us9gAiNAyYZRckuU-iv" version="15.3.0" type="github"><diagram id="J3RSiUoJ0n4WciJ40yJS" name="3D地图后台管理数据上传">7VpRj6IwEP41fdwEWsD2ERTvbnN3ycbcXXIvFyJVyaJ1EVd3f/1NsaiUxnNvo+BqYmKZKQW+mW9mOoBId7r+lEXzyTcR8xRhK14j0kMY2w7GSP6s+GUjoYRtBOMsidWknWCQvHIltJR0mcR8UZmYC5HmybwqHIrZjA/ziizKMrGqThuJtHrVeTTmNcFgGKV16a8kzidKantsp/jMk/FEXZrizkYxjcrJ6kkWkygWqz0RCRHpZkLkm9F03eWpBK/EJfh+P374unj+ybviy/DVZY8LdrdZrP+WU7aPkPFZ/t9LZ6P7H/Hg4Xd49xQPH3vOH8+ZqlOs5yhdKrzUs+YvJYCZWM5iLhexEAlWkyTng3k0lNoVuAzIJvk0hSMbhmo5nuV8reH/j5u3t4iCK3Ix5Xn2AueVq5TupLzQLo2y2tm0YynZZM+crqOEkfKj8XbtHVYwUHC9ATq7Dl3IELUQZSj0EA2QDwMXsS4KLDmgMPDbCS8mGrydOrxbyPfhPRm62IBuDcs63jq6gFNehXCRZ+IRkElFBpKZmMHMYJSkqSaK0mQ8g8Mh4MpBHkjUE4grvlJMkziWlzHarGrVk7HC1cxG62ajBqvhU1nNPZIT0nyBVDGG/JaGHNdqGyc8Iyc0LK+dEw5uGSfoUZzwitjmF0EO7EhR6MhDKemgwC5MDKpQzm8lXfQUsqVBY3RhBuDfA/PH5o2eS7DbMG9sQ20aUuT3UdCRgyBEjBQB0EW+e9C0IAG69aSN/Y6sIC6CQcRumkG2qcZ9D87XRSFi2KScl0LmKpr2EfOkIQNIP/QAGewGN3ysiqVDjiSDdzIwiQFMcH0AsydR9XuItRRMx2kdmIadQiuDst54oFYdOmPjwSMnw86wD8BeKgPrSMCj7oPoPS1FqbhbFM05HyZgPF/vlDAaF/+HYjuo3GLz7ckI74eFiiLqF4Mu8q3yJuChNvehVr2uJEC8qsMYdo1bWp0nCXSacRfY3tByDhRtm1Dp24XKLiU3B6o7kNZ36HhNexA2Zb6LbXVquZA2vk/FjrFKu/U6q4lYi6u06f0p/lDNTr3MaZ4Vt27nMZU9aRsrDNXGh2x3ammENd6swaZG863feWw+YU03a/CtX33R9iPHVckX36bWS4XmIx8xFdAHcL7VDC1jjqmSrjcQtgNXtgto/8rMpgc82zK0Is9rN1OJbop4b7ZkKwJdrcRjjQc6U3F9Ge9zdDDtoz+nOdk7CGIqmC/khQ47I5pwuPvItdDtfSpMwr8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-24T09:17:01.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="I-br-MCG7qlpZ17UKAyJ" version="15.3.0" type="github">
+  <diagram id="J3RSiUoJ0n4WciJ40yJS" name="3D地图后台管理数据上传">
+    <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="BNJgQLsvVeCoIcz59ks9-0" />
+        <mxCell id="BNJgQLsvVeCoIcz59ks9-1" parent="BNJgQLsvVeCoIcz59ks9-0" />
+        <mxCell id="rfJUdSQZE-qdckD4_64m-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="110" y="120" width="700" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-1" value="选择地区" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="230" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-2" value="地区选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="150" y="180" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-5" value="选择医院" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="500" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-6" value="医院选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="420" y="180" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-8" value="选择机器人类型" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="230" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-9" value="机器人类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="150" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-10" value="请输入机器人名称" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="230" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-11" value="机器人名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="150" y="320" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-12" value="取消" style="rounded=1;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="190" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-13" value="保存" style="rounded=1;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="440" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="110" y="800" width="700" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-16" value="&lt;font style=&quot;font-size: 22px&quot;&gt;机器人数据上传&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="360" y="70" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-17" value="&lt;font style=&quot;font-size: 22px&quot;&gt;机器人手术信息上传&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="300" y="760" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-23" value="选择地区" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="240" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-24" value="地区选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="160" y="850" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-25" value="选择医院" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="510" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-26" value="医院选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="430" y="850" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-27" value="选择机器人类型" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="240" y="910" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-28" value="机器人类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="160" y="920" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-29" value="机器人类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="160" y="920" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-33" value="选择机器人名称" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="510" y="910" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-34" value="机器人选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="430" y="920" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-35" value="手术术式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="160" y="1000" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-36" value="选择手术术式" style="rounded=0;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="240" y="990" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-37" value="取消" style="rounded=1;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="240" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rfJUdSQZE-qdckD4_64m-38" value="保存" style="rounded=1;whiteSpace=wrap;html=1;" parent="BNJgQLsvVeCoIcz59ks9-1" vertex="1">
+          <mxGeometry x="490" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kQ35HyrgbLsVAYnORshr-1" value="请输入机器人设备ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BNJgQLsvVeCoIcz59ks9-1">
+          <mxGeometry x="460" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kQ35HyrgbLsVAYnORshr-2" value="机器人设备ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNJgQLsvVeCoIcz59ks9-1">
+          <mxGeometry x="380" y="320" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
