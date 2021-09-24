@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T09:17:01.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="I-br-MCG7qlpZ17UKAyJ" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T09:17:18.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="hsDy00awBGO6QmfUAcHd" version="15.3.0" type="github">
   <diagram id="J3RSiUoJ0n4WciJ40yJS" name="3D地图后台管理数据上传">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -86,10 +86,10 @@
           <mxGeometry x="490" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kQ35HyrgbLsVAYnORshr-1" value="请输入机器人设备ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BNJgQLsvVeCoIcz59ks9-1">
-          <mxGeometry x="460" y="310" width="120" height="40" as="geometry" />
+          <mxGeometry x="510" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kQ35HyrgbLsVAYnORshr-2" value="机器人设备ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNJgQLsvVeCoIcz59ks9-1">
-          <mxGeometry x="380" y="320" width="80" height="20" as="geometry" />
+          <mxGeometry x="430" y="320" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
